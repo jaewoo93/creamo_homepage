@@ -29,7 +29,7 @@ body{
 .util-menu a{color: #fff;display: block;height:38px;line-height:38px;}
 #gnb{position: absolute;left: 0;bottom: 0;width: 100%;z-index: 100;}
 #gnb > ul > li{width:25%;float: left;position: relative;}
-#gnb > ul > li > a{color: #fff;font-size:18px;text-align:center;display: block;height:45px;line-height:45px;}
+#gnb > ul > li > a{color: #000;font-size:12px;text-align:center;display: block;height:45px;line-height:45px;}
 #gnb ul ul{display: none;position: absolute;left:50%;top:45px;width: 180px;margin-left: -90px;background-color: #fff;border: 1px solid #b40a13;border-top: none;border-radius: 0 0 7px 7px;font-size:13px;}
 #gnb ul ul a{display: block;height: 40px;line-height: 40px;text-align: center;}
 .mobile-menu-open{

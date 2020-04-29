@@ -7,8 +7,9 @@ body{
     color: #555;
     min-width:320px;
 }
+/* 상단 Header 부분 속성 */
 #header-wrap{
-    background:url(../images/common/bg-gnb.png) 0 100% repeat-x;
+    background: #ffffff;
     margin-bottom: 40px;
 }
 .header-inner{
@@ -16,7 +17,7 @@ body{
     height: 172px;
 }
 .header-inner, #container, #footer{max-width:1008px;margin:0 auto}
-#header-wrap h1{text-align:center;padding:28px 0 0;}
+#header-wrap h1{text-align:center;padding:29px 0 0;}
 .site-choice{position: absolute;left: 0;top: 0;}
 .site-choice li{float:left;}
 .util-menu{position: absolute;right: 0;top: 0;font-size: 12px;}
@@ -27,11 +28,18 @@ body{
     padding: 0;
 }
 .util-menu a{color: #fff;display: block;height:38px;line-height:38px;}
-#gnb{position: absolute;left: 0;bottom: 0;width: 100%;z-index: 100;}
-#gnb > ul > li{width:25%;float: left;position: relative;}
-#gnb > ul > li > a{color: #000;font-size:12px;text-align:center;display: block;height:45px;line-height:45px;}
-#gnb ul ul{display: none;position: absolute;left:50%;top:45px;width: 180px;margin-left: -90px;background-color: #fff;border: 1px solid #b40a13;border-top: none;border-radius: 0 0 7px 7px;font-size:13px;}
+
+/* main menu 부분 */
+#gnb{position: absolute;left: 0;bottom: 0;width: 100%;z-index: 100;border-style: solid; border-width: 1px; border-left:0px; border-right: 0px;}
+#gnb > ul > li{width:16.66%;float: left;position: relative;}
+
+/* 각각 menu 속성 */
+#gnb > ul > li > a{color: #000;font-size:14px;text-align:center;display: block;height:45px;line-height:45px;}
+
+/* 하위 메뉴 속성 */
+#gnb ul ul{display: none;position: absolute;left: 10%;top:45px;width: 140px;background-color: #ffffff;border: 1px solid #b40a13;border-top: none;border-radius: 0 0 7px 7px;font-size:12px;}
 #gnb ul ul a{display: block;height: 40px;line-height: 40px;text-align: center;}
+
 .mobile-menu-open{
     position: absolute;
     right: 10px;
@@ -112,7 +120,7 @@ Mobile:767px;
 @media (max-width:800px) {
     #header-wrap{background: none;}
     .header-inner{height: auto;}
-    #header-wrap h1{background-color: #b40a13;padding: 0;}
+    #header-wrap h1{background: none;   padding: 0;}
     #header-wrap picture{display: inline-block;width: 30.125%;/*241px*/min-width:145px;padding: 10px 0;}  
     .site-choice{position: static;overflow: hidden;background-color: #333;}
     .util-menu{

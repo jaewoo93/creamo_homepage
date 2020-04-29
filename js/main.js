@@ -1,10 +1,9 @@
 $(function(){
 	$(".main-visual-slide").bxSlider({
 		auto:true,
-		pause:2000,
-		autoHover:true,
-		autoControls:true,
-		autoControlsCombine:true
+		pause:3000,
+		stopAutoOnClick: true,
+		pager: true
 	});
 
 	$("#notice-tab-wrap h4 a").on("click", tabmenu);

@@ -31,13 +31,13 @@ body{
 
 /* main menu 부분 */
 #gnb{position: absolute;left: 0;bottom: 0;width: 100%;z-index: 100;border-style: solid; border-width: 1px; border-left:0px; border-right: 0px;}
-#gnb > ul > li{width:16.66%;float: left;position: relative;}
+#gnb > ul > li{width:25%;float: left;position: relative;}
 
 /* 각각 menu 속성 */
 #gnb > ul > li > a{color: #000;font-size:14px;text-align:center;display: block;height:45px;line-height:45px;}
 
 /* 하위 메뉴 속성 */
-#gnb ul ul{display: none;position: absolute;left: 10%;top:45px;width: 140px;background-color: #ffffff;border: 1px solid #b40a13;border-top: none;border-radius: 0 0 7px 7px;font-size:12px;}
+#gnb ul ul{display: none;position: absolute;left: 12%;top:45px;width: 200px;background-color: #ffffff;border: 1px solid #b40a13;border-top: none;border-radius: 0 0 7px 7px;font-size:12px;}
 #gnb ul ul a{display: block;height: 40px;line-height: 40px;text-align: center;}
 
 .mobile-menu-open{
@@ -90,7 +90,9 @@ body{
 .mobile-menu-close button span:first-child + span{
     transform: rotate(45deg);
 }
-.sec-tit-1{color: #915540;font-size: 17px;margin-bottom: 20px;}
+.sec-tit-1{color: #000000; font-size: 17px; margin-bottom: 20px;    text-align: center;}
+.product_name{color: #000000; font-size: 17px; margin-bottom: 20px;    text-align: center;}
+
 #footer-wrap{
     background-color: #fff;
 }

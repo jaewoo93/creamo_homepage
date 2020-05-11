@@ -10,14 +10,14 @@
 /* ---------------------------------------------------- */
 
 #notice-tab-wrap{
-    width: *362px;
-    height: 332px;
+    width: 45%;
+    height: 250px;
     border: 1px solid #aa7d80;
     border-radius: 7px;
     background-color: #fff;
     position: relative;
     margin-bottom: 40px;
-    float: right;
+    float: left;
     padding: 22px 13px 0;
 }
 #notice-tab-wrap h4 a{
@@ -74,17 +74,26 @@
 #notice-tab-wrap > div.tab-container-1{
     display: block;
 }
+
+#certification_area{
+    width: 45%;
+    height: 250px;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 50px;
+    float: right;
+}
+
 #best-book-wrap{
     clear: both;
 }
 .best-book-list{overflow: hidden;margin-left: -2.3255813953488373%}
 .best-book-list li.grid-item{
-    width: 22.674418604651162%;/*234px*/
+    width: 45%;/*234px*/
     margin-left: 2.3255813953488373%;/*24px*/
-    margin-bottom: 20px;
 }
 .best-book-list li p:first-child{
-    margin-bottom: 8.547008547008547%;/*21px*/
+    margin-bottom: 1%;/*21px*/
 }
 
 @media (max-width:800px) {

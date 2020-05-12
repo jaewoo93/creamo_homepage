@@ -100,6 +100,12 @@ body{
     padding: 10px 0;
     text-align: center;
 }
+
+.cs_center {
+    width: 50%;
+    text-align: left;
+}
+
 /*
 PC:1009px~
 Tablet:768px ~ 1008px

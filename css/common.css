@@ -97,15 +97,31 @@ body{
     background-color: #fff;
 }
 #footer{
-    padding: 10px 0;
-    text-align: center;
+    padding: 10px 0px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-left:0px;
+    border-right: 0px;
 }
 
 .cs_center {
     width: 50%;
     text-align: left;
+    float: left;
 }
 
+.company_info {
+    width: 50%;
+    text-align: left;
+    float: right;
+}
+
+.tit {
+    font-size: medium;
+    font-weight: bolder;
+}
 /*
 PC:1009px~
 Tablet:768px ~ 1008px
